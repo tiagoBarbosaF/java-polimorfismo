@@ -1,3 +1,5 @@
+import Service.ControleBonificacao;
+import model.Desenvolvedor;
 import model.Funcionario;
 import model.Gerente;
 
@@ -7,15 +9,30 @@ public class Main {
         tiago.setNome("Tiago Barbosa");
         tiago.setCpf("2233445566-99");
         tiago.setSalario(7000);
-
-        System.out.println(tiago.getNome());
-        System.out.println(tiago.getBonificacao());
+        System.out.println("Funcionário: " + tiago.getNome());
+        System.out.println("Bonificação: " + tiago.getBonificacao());
+        System.out.println("--------------------------------");
 
         Gerente gerente1 = new Gerente();
         gerente1.setNome("Peter");
         gerente1.setSalario(5000);
-        System.out.println(gerente1.getNome());
+        System.out.println("Gerente: " + gerente1.getNome());
         System.out.println("Salário: " + gerente1.getSalario());
         System.out.println("Bonificação: " + gerente1.getBonificacao());
+        System.out.println("--------------------------------");
+
+        Desenvolvedor desenvolvedor = new Desenvolvedor();
+        desenvolvedor.setNome("Rakel");
+        desenvolvedor.setSalario(7000);
+        System.out.println("Desenvolvedor: " + desenvolvedor.getNome());
+        System.out.println("Salário: " + desenvolvedor.getSalario());
+        System.out.println("Bonificação: " + desenvolvedor.getBonificacao());
+        System.out.println("--------------------------------");
+
+        ControleBonificacao controleBonificacao = new ControleBonificacao();
+        controleBonificacao.registra(tiago);
+        controleBonificacao.registra(gerente1);
+        controleBonificacao.registra(desenvolvedor);
+        System.out.println("Total bonificações: " + controleBonificacao.getSoma());
     }
 }
