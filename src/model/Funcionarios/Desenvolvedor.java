@@ -1,4 +1,6 @@
-package model;
+package model.Funcionarios;
+
+import model.Base.Funcionario;
 
 public class Desenvolvedor extends Funcionario {
 

@@ -1,6 +1,6 @@
 package Service;
 
-import model.Funcionario;
+import model.Base.Funcionario;
 
 public class ControleBonificacao {
     private double soma;

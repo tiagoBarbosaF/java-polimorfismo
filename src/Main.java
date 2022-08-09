@@ -1,7 +1,7 @@
 import Service.ControleBonificacao;
-import model.Desenvolvedor;
-import model.Funcionario;
-import model.Gerente;
+import model.Funcionarios.Desenvolvedor;
+import model.Base.Funcionario;
+import model.Funcionarios.Gerente;
 
 public class Main {
     public static void main(String[] args) {

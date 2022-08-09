@@ -1,4 +1,6 @@
-package model;
+package model.Funcionarios;
+
+import model.Base.Funcionario;
 
 public class Gerente extends Funcionario {
     private int senha;

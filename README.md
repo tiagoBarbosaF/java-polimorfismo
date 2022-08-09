@@ -47,3 +47,15 @@
     - a referência pode mudar, e, nessa altura entra o polimorfismo; ✅
     - o polimorfismo permite usar referências mais genéricas para a comunicação com um objeto; ✅
     - o uso de referências mais genéricas permite desacoplar sistemas. ✅
+- Herança e o uso construtores ✅
+  - Herança e construtores ✅
+  - Herança de classes ✅
+  - Conta Corrente e Poupança ✅
+  - Sobre o construtor ✅
+  - A anotação @Override ✅
+  - Mãos na massa: Focando em herança e polimorfismo ✅
+  - O que aprendemos? ✅
+    - Conceitos de herança, construtores e polimorfismo ✅
+    - A utilização da anotação `@Override` ✅
+    - Construtores não são herdados ✅
+    - Um construtor da classe mãe pode ser chamado através do `super()` ✅
