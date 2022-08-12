@@ -5,7 +5,7 @@ import model.Funcionarios.Gerente;
 
 public class Main {
     public static void main(String[] args) {
-        Funcionario tiago = new Funcionario();
+        Funcionario tiago = new Desenvolvedor();
         tiago.setNome("Tiago Barbosa");
         tiago.setCpf("2233445566-99");
         tiago.setSalario(7000);

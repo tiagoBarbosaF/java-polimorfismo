@@ -2,7 +2,7 @@ package model.Base;
 
 import model.Cliente;
 
-public class Conta {
+public abstract class Conta {
     private final int agencia;
     private final int numero;
     private double saldo;

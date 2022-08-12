@@ -59,3 +59,18 @@
     - A utilização da anotação `@Override` ✅
     - Construtores não são herdados ✅
     - Um construtor da classe mãe pode ser chamado através do `super()` ✅
+- Classes e métodos abstratos ✅
+  - Classes abstratas ✅
+  - Sobre Classes Abstratas ✅
+  - Métodos abstratos ✅
+  - Sobre métodos abstratos ✅
+  - Classes e Métodos Abstratos ✅
+  - Mãos na massa: Classe e método abstrato ✅
+  - Abstract no exemplo Conta ✅
+  - Conhece classes abstratas? ✅
+  - Mãos na massa: Contas ✅
+  - O que aprendemos? ✅
+    - O que são classes abstratas ✅
+    - Para que servem classes abstratas ✅
+    - O que são métodos abstratos ✅
+    - Para que servem métodos abstratos ✅
