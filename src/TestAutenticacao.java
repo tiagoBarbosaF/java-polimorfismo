@@ -10,7 +10,7 @@ public class TestAutenticacao {
         cliente.setSenha(2222);
 
         Gerente gerente = new Gerente();
-        gerente.setSenha(3333);
+         gerente.setSenha(3333);
 
         Fiscal fiscal = new Fiscal();
         fiscal.setSenha(2222);

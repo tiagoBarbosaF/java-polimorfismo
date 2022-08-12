@@ -1,12 +1,13 @@
 package model.Pessoas;
 
 import Interfaces.Autenticavel;
+import Util.AutenticacaoUtil;
 
 public class Cliente implements Autenticavel {
     private String nome;
     private String cpf;
     private String profissao;
-    private int senha;
+    private AutenticacaoUtil autenticacaoUtil;
     private static int totalClientes;
 
     public Cliente(String nome, String cpf, String profissao) {
@@ -14,6 +15,7 @@ public class Cliente implements Autenticavel {
         this.nome = nome;
         this.cpf = cpf;
         this.profissao = profissao;
+        this.autenticacaoUtil = new AutenticacaoUtil();
     }
 
     public String getNome() {
@@ -34,11 +36,11 @@ public class Cliente implements Autenticavel {
 
     @Override
     public void setSenha(int senha) {
-        this.senha = senha;
+        this.autenticacaoUtil.setSenha(senha);
     }
 
     @Override
     public boolean autentica(int senha) {
-        return this.senha == senha;
+        return this.autenticacaoUtil.autentica(senha);
     }
 }
