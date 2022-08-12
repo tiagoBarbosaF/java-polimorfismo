@@ -1,6 +1,6 @@
 package model.Base;
 
-import model.Cliente;
+import model.Pessoas.Cliente;
 
 public abstract class Conta {
     private final int agencia;

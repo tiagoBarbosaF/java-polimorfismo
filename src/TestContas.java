@@ -1,4 +1,4 @@
-import model.Cliente;
+import model.Pessoas.Cliente;
 import model.Contas.ContaCorrente;
 import model.Contas.ContaPoupanca;
 

@@ -74,3 +74,18 @@
     - Para que servem classes abstratas ✅
     - O que são métodos abstratos ✅
     - Para que servem métodos abstratos ✅
+- Interfaces ✅
+  - Mais uma classe abstrata ✅
+  - Herança multipla? ✅
+  - A primeira interface ✅
+  - Herdando de várias classes ✅
+  - Completando o sistema ✅
+  - Conceitos de Interfaces ✅
+  - Classes Abstratas x Interfaces ✅
+  - Sobre o polimorfismo ✅
+  - Mãos na massa: trabalhando com `interfaces`. ✅
+  - O que aprendemos? ✅
+    - Não existe herança múltipla em Java. ✅
+    - Conceitos de interface. ✅
+    - Diferenças entre classes abstratas e interfaces. ✅
+    - `interfaces` são uma alternativa a herança referente ao polimorfismo ✅

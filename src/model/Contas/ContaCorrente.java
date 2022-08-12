@@ -1,7 +1,7 @@
 package model.Contas;
 
 import model.Base.Conta;
-import model.Cliente;
+import model.Pessoas.Cliente;
 
 public class ContaCorrente extends Conta {
     public ContaCorrente(int agencia, int numero, Cliente titular) {
